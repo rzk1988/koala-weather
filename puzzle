@@ -1,0 +1,23 @@
+Puzzle #2
+doSomething
+|-----------------|
+                  doSomethingElse(undefined)
+                  |------------------|
+                  finalHandler(undefined)
+                  |------------------|
+
+Puzzle #3
+doSomething
+|-----------------|
+doSomethingElse(undefined)
+|------------------|
+                  finalHandler(resultOfDoSomething)
+                  |------------------|
+
+Puzzle #3
+doSomething
+|-----------------|
+                  doSomethingElse(resultOfDoSomething)
+                  |------------------|
+                                     finalHandler(resultOfDoSomethingElse)
+                                     |------------------|

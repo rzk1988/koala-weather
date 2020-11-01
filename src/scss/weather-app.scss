@@ -1,0 +1,22 @@
+.weather-app {
+  margin: 5rem 0;
+  .city-name {
+    margin: 3rem 0;
+  }
+  .loading-box {
+    padding: 5rem 0;
+    text-align: center;
+  }
+  .loading-icon {
+    width: 5rem;
+    height: 5rem;
+    animation: spin 1.3s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+  }
+}
+
+

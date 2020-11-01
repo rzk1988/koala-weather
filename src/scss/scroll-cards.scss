@@ -1,0 +1,12 @@
+.scroll-cards {
+  .MuiGridList-root {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    cursor: grab;
+    user-select: none;
+  }
+
+  .MuiGridListTile-tile {
+    padding-bottom: 2rem;
+  }
+}
